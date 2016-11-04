@@ -1,29 +1,32 @@
 {
   "name": "tproecc_server",
-  "version": "1.0.0",
-  "description": "\"# asdf\"",
+  "version": "0.9.0",
+  "description": "tProEcc device server module.",
   "main": "tproecc_server.js",
+  "dependencies": {
+    "elliptic": "^6.3.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sowagregory/tproecc_server.git"
+    "url": "git+https://github.com/comarch-cybersecurity/tproecc_server.git"
   },
   "keywords": [
-    "tpro",
-    "ecc",
+    "tproecc",
+    "token",
     "crypto",
-    "server",
-    "comarch",
+    "device",
     "security",
-    "cyber",
-    "cybersecurity"
+    "cybersecurity",
+    "comarch"
   ],
   "author": "Comarch CyberSecurity",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sowagregory/tproecc_server/issues"
+    "url": "https://github.com/comarch-cybersecurity/tproecc_server/issues"
   },
-  "homepage": "https://github.com/sowagregory/tproecc_server#readme"
+  "homepage": "https://github.com/comarch-cybersecurity/tproecc_server#readme"
 }
